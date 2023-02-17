@@ -34,7 +34,7 @@ jobs:
     name: Build (${{ matrix.target }})
     runs-on: ${{ matrix.os }}
     env:
-      BIN: rojo
+      BIN: edit-roblox-place
     steps:
       - uses: actions/checkout@v3
 
